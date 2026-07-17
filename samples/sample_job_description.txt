@@ -1,0 +1,47 @@
+Senior Software Engineer - Full Stack
+
+Company: TechCorp Solutions
+Location: San Francisco, CA (Hybrid)
+Experience: 5+ years
+
+About the Role:
+We are looking for a Senior Software Engineer to join our growing engineering team. You will be responsible for designing, developing, and maintaining scalable web applications using modern technologies. The ideal candidate has strong experience in full-stack development and is passionate about building high-quality software.
+
+Responsibilities:
+- Design and implement scalable web applications using React and Python
+- Build RESTful APIs using FastAPI or Django
+- Write clean, maintainable, and well-documented code
+- Collaborate with product managers, designers, and other engineers
+- Mentor junior developers and conduct code reviews
+- Participate in system design and architecture decisions
+- Implement CI/CD pipelines and automated testing
+- Monitor application performance and optimize as needed
+- Contribute to technical documentation and best practices
+
+Requirements:
+- Bachelor's degree in Computer Science or related field
+- 5+ years of experience in software development
+- Strong proficiency in Python and JavaScript/TypeScript
+- Experience with React.js, Next.js, or similar frontend frameworks
+- Experience with FastAPI, Django, or Flask
+- Proficiency with SQL databases (PostgreSQL, MySQL) and NoSQL (MongoDB, Redis)
+- Experience with cloud platforms (AWS, GCP, or Azure)
+- Familiarity with Docker, Kubernetes, and CI/CD tools
+- Strong understanding of RESTful API design and microservices architecture
+- Experience with Git and agile development methodologies
+- Excellent problem-solving and communication skills
+
+Nice to Have:
+- Experience with machine learning or data science
+- Knowledge of Terraform or infrastructure as code
+- Experience with message queues (Kafka, RabbitMQ)
+- Contributions to open-source projects
+- Experience with GraphQL
+
+Benefits:
+- Competitive salary ($150,000 - $200,000)
+- Health, dental, and vision insurance
+- 401(k) with company match
+- Flexible work schedule
+- Professional development budget
+- Stock options

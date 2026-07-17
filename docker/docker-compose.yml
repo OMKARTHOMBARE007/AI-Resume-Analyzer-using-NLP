@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.backend
+    container_name: resume-analyzer-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=false
+      - SECRET_KEY=${SECRET_KEY:-change-me-in-production}
+      - DATABASE_URL=sqlite:///backend/database/resume_analyzer.db
+      - CORS_ORIGINS=http://localhost,http://localhost:80
+    volumes:
+      - ../backend/uploads:/app/backend/uploads
+      - ../backend/reports:/app/backend/reports
+      - ../backend/database:/app/backend/database
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.frontend
+    container_name: resume-analyzer-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped

@@ -1,0 +1,131 @@
+.file-upload-wrapper {
+  width: 100%;
+}
+
+.dropzone {
+  border: 2px dashed var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 48px 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  background: var(--bg-secondary);
+}
+
+.dropzone:hover {
+  border-color: var(--accent-blue);
+  background: var(--accent-blue-light);
+}
+
+.dropzone-active {
+  border-color: var(--accent-blue);
+  background: var(--accent-blue-light);
+  transform: scale(1.01);
+}
+
+.dropzone-has-file {
+  border-style: solid;
+  border-color: var(--accent-emerald);
+  background: var(--accent-emerald-light);
+  padding: 20px 24px;
+}
+
+.dropzone-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.upload-icon-wrapper {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--accent-blue-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-blue);
+  margin-bottom: 8px;
+}
+
+.dropzone-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.dropzone-content p {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.browse-text {
+  color: var(--accent-blue);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.file-hints {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.hint-text {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.selected-file {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.file-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background: var(--accent-emerald-light);
+  color: var(--accent-emerald);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-details {
+  flex: 1;
+  text-align: left;
+}
+
+.file-name {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-primary);
+}
+
+.file-size {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.file-status .check-icon {
+  color: var(--accent-emerald);
+}
+
+.remove-file {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  padding: 6px;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.remove-file:hover {
+  color: var(--accent-red);
+  background: var(--accent-red-light);
+}

@@ -1,0 +1,95 @@
+.analysis-page { max-width: 1100px; }
+.analysis-selector { padding: 28px; margin-bottom: 28px; }
+.analysis-results { animation: fadeIn 0.5s ease; }
+
+.score-main-card {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .score-main-card { flex-direction: column; text-align: center; }
+}
+
+.score-circle-large {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+}
+
+.score-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.score-number {
+  display: block;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.score-label-text {
+  font-size: 12px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.score-summary h2 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.score-summary p {
+  color: var(--text-secondary);
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.skill-card, .sw-card {
+  padding: 24px;
+  margin-bottom: 0;
+}
+
+.skill-card h3, .sw-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.sw-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sw-item {
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+}
+
+.sw-strength {
+  background: var(--accent-emerald-light);
+  color: var(--accent-emerald);
+  border-left: 3px solid var(--accent-emerald);
+}
+
+.sw-weakness {
+  background: var(--accent-amber-light);
+  color: var(--accent-amber);
+  border-left: 3px solid var(--accent-amber);
+}
