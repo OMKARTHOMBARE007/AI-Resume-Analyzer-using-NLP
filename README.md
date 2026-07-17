@@ -299,6 +299,6 @@ Distributed under the MIT License. See the [LICENSE](file:///c:/Users/Onkar/.gem
 ## 👥 Author & Contact Information
 
 *   **Developer:** Onkar
-*   **GitHub Profile:** 
-*   **LinkedIn Profile:** (www.linkedin.com/in/omkar-thombare-781017278)
-*   **Project Link:** [https://github.com/OMKARTHOMBARE007/AI-Resume-Analyzer-using-NLP.git]
+*   **GitHub Profile:** https://github.com/OMKARTHOMBARE007
+*   **LinkedIn Profile:** www.linkedin.com/in/omkar-thombare-781017278
+*   **Project Link:** https://github.com/OMKARTHOMBARE007/AI-Resume-Analyzer-using-NLP.git
